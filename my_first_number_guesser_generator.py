@@ -39,6 +39,7 @@ for i in range(min, max + 1):
             else:
                 file.write("\t\t\tprint(\"\\nToo high!\")\n")
             file.write("\t\t\tprint(\"Try again!\")\n")
+            file.write("\t\t\tcontinue\n")
 
 file.write("\n\t\t# If the number is outside the range\n")
 file.write("\t\telse:\n" +
